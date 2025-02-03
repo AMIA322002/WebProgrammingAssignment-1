@@ -1,0 +1,79 @@
+/* General Page Styles (Light Mode) */
+body {
+    background-color: #ffffff;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+}
+
+/* Headings */
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: Century Gothic, Futura, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+/* Links */
+a {
+    color: #A4A400;
+}
+
+/* Recipe Directions */
+ol li strong {
+    font-weight: bold;
+}
+
+/* User Quotes */
+blockquote {
+    font-style: italic;
+    background-color: #FFFFC8;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    color: #A4A400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #181818;
+        color: #E0E0E0;
+    }
+
+    h1, h2 {
+        color: #FFD700;
+        background-color: #333;
+    }
+
+    a {
+        color: #FFD700;
+    }
+
+    blockquote {
+        background-color: #444;
+        color: #FFF5A5;
+    }
+
+    footer {
+        color: #FFD700;
+    }
+}
